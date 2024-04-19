@@ -11,7 +11,7 @@ app.use(cors());
 var db;
 var images;
 const uri =
-  "mongodb+srv://hasinichaithanya04:@cluster0.suc7fzf.mongodb.net/geo_images?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://hasinichaithanya04:6hr9XjbxpsanJlOJ@cluster0.suc7fzf.mongodb.net/geo_images?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri);
 
 function Connect() {
